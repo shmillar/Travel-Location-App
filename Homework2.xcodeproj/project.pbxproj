@@ -12,6 +12,14 @@
 		61AC34ED23721FBB007C06C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AC34EB23721FBB007C06C9 /* Main.storyboard */; };
 		61AC34EF23721FBC007C06C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AC34EE23721FBC007C06C9 /* Assets.xcassets */; };
 		61AC34F223721FBC007C06C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AC34F023721FBC007C06C9 /* LaunchScreen.storyboard */; };
+		61AC34FA23722015007C06C9 /* cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AC34F923722015007C06C9 /* cities.swift */; };
+		61AC34FC237221A1007C06C9 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AC34FB237221A1007C06C9 /* CityTableViewCell.swift */; };
+		61AC350123724697007C06C9 /* losangeles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AC34FD23724697007C06C9 /* losangeles.jpg */; };
+		61AC350223724697007C06C9 /* sanfrancisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AC34FE23724697007C06C9 /* sanfrancisco.jpg */; };
+		61AC350323724697007C06C9 /* newyork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AC34FF23724697007C06C9 /* newyork.jpg */; };
+		61AC350423724697007C06C9 /* tempe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AC350023724697007C06C9 /* tempe.jpg */; };
+		61AC35062372469E007C06C9 /* flagstaff.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61AC35052372469E007C06C9 /* flagstaff.jpeg */; };
+		61AC350823724885007C06C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AC350723724885007C06C9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		61AC34EE23721FBC007C06C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61AC34F123721FBC007C06C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61AC34F323721FBC007C06C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AC34F923722015007C06C9 /* cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cities.swift; sourceTree = "<group>"; };
+		61AC34FB237221A1007C06C9 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		61AC34FD23724697007C06C9 /* losangeles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = losangeles.jpg; sourceTree = "<group>"; };
+		61AC34FE23724697007C06C9 /* sanfrancisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanfrancisco.jpg; sourceTree = "<group>"; };
+		61AC34FF23724697007C06C9 /* newyork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newyork.jpg; sourceTree = "<group>"; };
+		61AC350023724697007C06C9 /* tempe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tempe.jpg; sourceTree = "<group>"; };
+		61AC35052372469E007C06C9 /* flagstaff.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flagstaff.jpeg; sourceTree = "<group>"; };
+		61AC350723724885007C06C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +72,18 @@
 			children = (
 				61AC34E723721FBB007C06C9 /* AppDelegate.swift */,
 				61AC34E923721FBB007C06C9 /* ViewController.swift */,
+				61AC350723724885007C06C9 /* DetailViewController.swift */,
 				61AC34EB23721FBB007C06C9 /* Main.storyboard */,
 				61AC34EE23721FBC007C06C9 /* Assets.xcassets */,
 				61AC34F023721FBC007C06C9 /* LaunchScreen.storyboard */,
 				61AC34F323721FBC007C06C9 /* Info.plist */,
+				61AC34F923722015007C06C9 /* cities.swift */,
+				61AC34FB237221A1007C06C9 /* CityTableViewCell.swift */,
+				61AC34FD23724697007C06C9 /* losangeles.jpg */,
+				61AC34FF23724697007C06C9 /* newyork.jpg */,
+				61AC34FE23724697007C06C9 /* sanfrancisco.jpg */,
+				61AC350023724697007C06C9 /* tempe.jpg */,
+				61AC35052372469E007C06C9 /* flagstaff.jpeg */,
 			);
 			path = Homework2;
 			sourceTree = "<group>";
@@ -122,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AC35062372469E007C06C9 /* flagstaff.jpeg in Resources */,
 				61AC34F223721FBC007C06C9 /* LaunchScreen.storyboard in Resources */,
+				61AC350223724697007C06C9 /* sanfrancisco.jpg in Resources */,
 				61AC34EF23721FBC007C06C9 /* Assets.xcassets in Resources */,
+				61AC350123724697007C06C9 /* losangeles.jpg in Resources */,
+				61AC350423724697007C06C9 /* tempe.jpg in Resources */,
 				61AC34ED23721FBB007C06C9 /* Main.storyboard in Resources */,
+				61AC350323724697007C06C9 /* newyork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61AC34EA23721FBB007C06C9 /* ViewController.swift in Sources */,
+				61AC34FA23722015007C06C9 /* cities.swift in Sources */,
+				61AC350823724885007C06C9 /* DetailViewController.swift in Sources */,
+				61AC34FC237221A1007C06C9 /* CityTableViewCell.swift in Sources */,
 				61AC34E823721FBB007C06C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
